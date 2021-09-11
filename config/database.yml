@@ -11,8 +11,9 @@ development:
   database: spectre_development
 
 test: &test
-  <<: *default
-  database: spectre_test
+  adapter: sqlite3
+  timeout: 5000
+  database: db/test.sqlite3
 
 cucumber:
   <<: *test
