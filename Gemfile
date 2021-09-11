@@ -20,7 +20,7 @@ gem 'dragonfly', '~> 1.4.0'
 gem 'dragonfly-s3_data_store'
 gem 'image_size'
 gem 'poltergeist'
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.6'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
