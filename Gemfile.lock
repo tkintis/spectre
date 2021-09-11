@@ -187,6 +187,7 @@ GEM
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
     libv8 (3.16.14.19)
+    libv8 (3.16.14.19-x86_64-linux)
     loofah (2.12.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -204,6 +205,8 @@ GEM
     netrc (0.11.0)
     nio4r (2.5.8)
     nokogiri (1.12.4-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.4-x86_64-linux)
       racc (~> 1.4)
     pg (1.2.3)
     poltergeist (1.18.1)
@@ -354,6 +357,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   byebug
