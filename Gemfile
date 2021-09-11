@@ -48,6 +48,7 @@ group :test do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'poltergeist'
+	gem 'sqlite3'
 end
 
 group :demo_test_run do

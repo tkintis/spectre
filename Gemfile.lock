@@ -327,6 +327,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.2)
     sys-uname (1.2.2)
       ffi (~> 1.1)
     temple (0.8.2)
@@ -385,6 +386,7 @@ DEPENDENCIES
   sequenced
   spectre_client!
   spring
+  sqlite3
   therubyracer
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
