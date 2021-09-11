@@ -12,7 +12,7 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 0.4.1', group: :doc
 
 gem 'rails_admin'
 gem 'sequenced'
