@@ -16,6 +16,7 @@ jobs:
           POSTGRES_USER: spectre
           POSTGRES_DB: spectre_test
           POSTGRES_PASSWORD: ""
+          POSTGRES_HOST_AUTH_METHOD: trust
         ports: ["5432:5432"]
 
     steps:
